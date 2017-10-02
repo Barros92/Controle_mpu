@@ -25,10 +25,12 @@ O seu principal objetivo é integrar um conjunto de tecnologias de sensores, de 
   # Desenvolvimento
  
  
- ![image](https://user-images.githubusercontent.com/32276018/31093747-204b1db2-a789-11e7-95f6-34327eab4920.png)
- 
- 
 
+ 
+ 
+ Transmissões de atualização DMP (Banco, Endereço de Início, Comprimento de Atualização, Dados de Atualização ...)
+
+ ![image](https://user-images.githubusercontent.com/32276018/31093927-b02259a0-a789-11e7-8c23-647e8abc1458.png)
 
  
  # Resultado
