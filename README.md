@@ -36,6 +36,9 @@ O seu principal objetivo é integrar um conjunto de tecnologias de sensores, de 
 
 ![image](https://user-images.githubusercontent.com/32276018/31094777-b067f764-a78c-11e7-953e-056622d59931.png)
 
+O método RegRead retorna valores.
+
+![image](https://user-images.githubusercontent.com/32276018/31095068-d04a9e28-a78d-11e7-91d8-d1be348c0a98.png)
 
  Esta matriz 3D contém o binário de banco de memória DMP padrão. No firmware Invensense UC3-A3, isso é carregado em transmissões de 128 bytes, mas o Arduino Wire a biblioteca suporta apenas transmissões de 32 bytes, incluindo o endereço de registro para o qual você está escrevendo,então eu grava-se isso em 16 cargas úteis de transmissão de bytes que são enviadas na função dmp_init ().Este foi reconstruído a partir do tráfego I2C  
 
