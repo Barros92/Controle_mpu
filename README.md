@@ -48,6 +48,9 @@ O método RegRead retorna valores.
 
  ![image](https://user-images.githubusercontent.com/32276018/31093927-b02259a0-a789-11e7-8c23-647e8abc1458.png)
 
+"RESTANTE DO CÓDIGO SÃO FUNÇÕES DE FÁCIL PERCEPÇÃO USANDO IF, FOR E FUNÇÕES MATEMÁTICAS."
+
+
  
  # Resultado
  ![whatsapp image 2017-09-27 at 19 59 51](https://user-images.githubusercontent.com/32276018/30942055-f1853cc4-a3be-11e7-889b-7f6803a3b4a6.jpeg)
