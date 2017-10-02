@@ -20,6 +20,11 @@ O seu principal objetivo é integrar um conjunto de tecnologias de sensores, de 
  ![image](https://user-images.githubusercontent.com/32276018/31092850-21f7f246-a786-11e7-8489-2cb34bddbe24.png)
  
  A comunicação com o microcontrolador usa a interface I2C, por meio dos pinos SCL e SDA do sensor. Nos pinos XDA e XCL você pode ligar outros dispositivos I2C, como um magnetômetro por exemplo, e criar um sistema de orientação completo. A alimentação do módulo pode variar entre 3 e 5v, mas para melhores resultados e precisão recomenda-se utilizar 5v.
+ O pino AD0 desconectado define que o endereço I2C do sensor é 0x68. Conecte o pino AD0 ao pino 3.3V do Arduino para que o endereço seja alterado para 0x69. Essa mudança permite que você tenha dois módulos MPU-6050 em um mesmo circuito, mas neste projeto utilizei somente 1.
+ 
+ 
+
+
  
  # Resultado
  ![whatsapp image 2017-09-27 at 19 59 51](https://user-images.githubusercontent.com/32276018/30942055-f1853cc4-a3be-11e7-889b-7f6803a3b4a6.jpeg)
