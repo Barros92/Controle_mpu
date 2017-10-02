@@ -24,9 +24,9 @@ O seu principal objetivo é integrar um conjunto de tecnologias de sensores, de 
  
   # Desenvolvimento
 
-Carrega a biblioteca Wire e carrega a biblioteca sinalizador de interrupção.Endereco I2C do MPU6050 e variaveis para armazenar valores dos sensores.
+1° linha Carrega a biblioteca Wire, depois carrega a biblioteca sinalizador de interrupção e endereco I2C do MPU6050 e variaveis para armazenar valores dos sensores.
 
-
+![image](https://user-images.githubusercontent.com/32276018/31094336-33aebf24-a78b-11e7-9ab5-811000468268.png)
  
  Esta matriz 3D contém o binário de banco de memória DMP padrão. No firmware Invensense UC3-A3, isso é carregado em transmissões de 128 bytes, mas o Arduino Wire a biblioteca suporta apenas transmissões de 32 bytes, incluindo o endereço de registro para o qual você está escrevendo,então eu grava-se isso em 16 cargas úteis de transmissão de bytes que são enviadas na função dmp_init ().Este foi reconstruído a partir do tráfego I2C  
 
