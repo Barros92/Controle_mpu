@@ -23,10 +23,14 @@ O seu principal objetivo é integrar um conjunto de tecnologias de sensores, de 
  O pino AD0 desconectado define que o endereço I2C do sensor é 0x68. Conecte o pino AD0 ao pino 3.3V do Arduino para que o endereço seja alterado para 0x69. Essa mudança permite que você tenha dois módulos MPU-6050 em um mesmo circuito, mas neste projeto utilizei somente 1.
  
   # Desenvolvimento
- 
- 
+
+Carrega a biblioteca Wire e carrega a biblioteca sinalizador de interrupção.Endereco I2C do MPU6050 e variaveis para armazenar valores dos sensores.
+
 
  
+ Esta matriz 3D contém o binário de banco de memória DMP padrão. No firmware Invensense UC3-A3, isso é carregado em transmissões de 128 bytes, mas o Arduino Wire a biblioteca suporta apenas transmissões de 32 bytes, incluindo o endereço de registro para o qual você está escrevendo,então eu grava-se isso em 16 cargas úteis de transmissão de bytes que são enviadas na função dmp_init ().Este foi reconstruído a partir do tráfego I2C  
+
+ ![image](https://user-images.githubusercontent.com/32276018/31094030-097999aa-a78a-11e7-8272-25b2b96a8355.png)
  
  Transmissões de atualização DMP (Banco, Endereço de Início, Comprimento de Atualização, Dados de Atualização ...)
 
