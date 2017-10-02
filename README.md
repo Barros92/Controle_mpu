@@ -17,7 +17,7 @@ O seu principal objetivo é integrar um conjunto de tecnologias de sensores, de 
  
  # Pinagem e endereçamento do MPU6050
  
- 
+ ![image](https://user-images.githubusercontent.com/32276018/31092850-21f7f246-a786-11e7-8489-2cb34bddbe24.png)
  
  A comunicação com o microcontrolador usa a interface I2C, por meio dos pinos SCL e SDA do sensor. Nos pinos XDA e XCL você pode ligar outros dispositivos I2C, como um magnetômetro por exemplo, e criar um sistema de orientação completo. A alimentação do módulo pode variar entre 3 e 5v, mas para melhores resultados e precisão recomenda-se utilizar 5v.
  
